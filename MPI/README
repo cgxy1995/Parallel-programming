@@ -1,0 +1,5 @@
+usage: mpiexec -n x ./mapreduce_mpi -in [input files....] -out [output file]
+example: mpiexec -n 4 ./mapreduce_mpi -in in1 in2 in3 in4 -out out
+
+program tested on 1,2,4,8,16 nodes, result shown as a graph
+about 3.5x speed up at 16 cores.
